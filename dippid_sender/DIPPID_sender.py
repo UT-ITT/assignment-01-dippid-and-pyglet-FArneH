@@ -43,7 +43,6 @@ class DIPPIDSender:
                 "z": np.cos(self.t * 0.8 + 2) + np.random.normal(0, 0.03),
             }
 
-            # 🎯 realistische Button Simulation
             button_1 = self.update_button()
 
             packet = {
